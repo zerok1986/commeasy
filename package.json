@@ -1,0 +1,28 @@
+{
+  "name": "commeasy",
+  "version": "1.0.6",
+  "description": "A CLI util to make simple semantic commits",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "commeasy": "src/index.js"
+  },
+  "scripts": {
+    "co": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "@bdsqqq/try": "2.3.1",
+    "@clack/prompts": "0.6.2",
+    "picocolors": "1.0.0"
+  }
+}
